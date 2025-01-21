@@ -4,7 +4,7 @@
 /node_modules
 /.pnp
 .pnp.js
-.env
+MFA_backend/.env
 
 # testing
 /coverage
