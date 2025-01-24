@@ -32,7 +32,7 @@ function LoginView() {
   
       if (response.ok) {
         console.log('Backend Response:', data);
-        alert(`Welcome, ${data.user.display_name}`);
+        alert(`Welcome, ${data.user.first_name}`);
       } else {
         console.error('Backend Error:', data.error);
         alert(data.error || 'Sign-In failed');
