@@ -1,0 +1,12 @@
+# Exclude node_modules for both frontend and backend
+MFA_frontend/node_modules
+MFA_backend/node_modules
+
+# Exclude specific files in MFA_backend
+MFA_backend/package-lock.json
+MFA_backend/package.json
+MFA_backend/.env
+
+# Other global exclusions
+*.log
+.DS_Store
